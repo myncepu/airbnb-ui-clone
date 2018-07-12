@@ -7,7 +7,6 @@
 import React, { Component} from 'react'
 import PropTypes from 'prop-types'
 import {
-  SafeAreaView,
   View,
   ScrollView,
   Image,
@@ -19,6 +18,7 @@ import {
   Animated,
 } from 'react-native'
 import Icon from 'react-native-vector-icons/Ionicons'
+import { SafeAreaView } from 'react-navigation'
 
 import Category from '../components/Explore/Category'
 import Home from '../components/Explore/Home'
